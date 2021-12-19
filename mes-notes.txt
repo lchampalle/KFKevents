@@ -27,7 +27,8 @@ Git
         git branch -u origin/master-KFKevents master-KFKevents
         git remote set-head origin -a
 
-1. commandes maven
+Commandes maven
+---------------
 
     création d'un artefact
     ------------------------
