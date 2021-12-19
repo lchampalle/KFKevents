@@ -2,7 +2,18 @@
     rm -Rf
     history
 
+    Supprimer le cache des paquets périmés :
+        sudo apt autoclean
 
+    Supprimer tout le cache :
+        sudo apt clean
+
+    Supprimer les paquets installés automatiquement comme dépendances et devenus inutiles :
+        sudo apt autoremove
+
+    installation openJDK
+        sudo apt update
+        sudo apt install openjdk-11-jdk
 
 1. commandes maven
 
