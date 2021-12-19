@@ -1,4 +1,5 @@
-
+Ubuntu
+------
     rm -Rf
     history
 
@@ -14,6 +15,17 @@
     installation openJDK
         sudo apt update
         sudo apt install openjdk-11-jdk
+
+Git
+---
+    on Origin : the default branch has been renamed!
+    local-KFKevents is now named master-KFKevents
+    If you have a local clone, you can update it by running the following commands.
+
+        git branch -m local-KFKevents master-KFKevents
+        git fetch origin
+        git branch -u origin/master-KFKevents master-KFKevents
+        git remote set-head origin -a
 
 1. commandes maven
 
